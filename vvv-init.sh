@@ -24,6 +24,7 @@ then
   echo "Downloading Sage"
   cd htdocs/web/app/themes
     git clone https://github.com/roots/sage.git --branch 8.5.3 --single-branch
+    mv sage $project
 fi
 
 # The Vagrant site setup script will restart Nginx for us
